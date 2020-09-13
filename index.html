@@ -77,7 +77,7 @@
 
             <td>1</td>
 
-            <td>Agile software development</td>
+            <td><a href="https://courses.cs.ut.ee/2020/ASD/fall" target="_blank">Agile software development</a></td>
 
             <td>Semester 1 fall</td>
 
@@ -89,7 +89,7 @@
 
             <td>2</td>
 
-            <td>System modeling</td>
+            <td><a href="https://courses.cs.ut.ee/2020/sm/fall" target="_blank">System modeling</a></td>
 
             <td>Semester 1 spring</td>
 
@@ -101,7 +101,7 @@
 
             <td>3</td>
 
-            <td>Object-oriented programming</td>
+            <td><a href="https://courses.cs.ut.ee/2020/OOP/spring" target="_blank">Object-oriented programming</a></td>
 
             <td>Semester 2 spring</td>
 
@@ -113,7 +113,7 @@
 
             <td>4</td>
 
-            <td>Estonian language Level A2</td>
+            <td><a href="https://courses.cs.ut.ee/courses/index/2020/fall" target="_blank">Estonian language Level A2</a></td>
 
             <td>Semester 2 fall</td>
 
@@ -122,6 +122,36 @@
         </tr>
 
         </tbody>
+
+        <tfoot>
+
+        <tr>
+            <td colspan="4"> <button type="button">Add new course</button> </td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+            <form>
+                <label for="title">Course Title:</label><br>
+                <input type="text" name="title"><br>
+
+                <label for="semester">Semester:</label><br>
+                <select id="semester" name="semester">
+                    <option value="1_fall">Semester 1 fall</option>
+                    <option value="1_spring">Semester 1 spring</option>
+                    <option value="2_fall">Semester 2 fall</option>
+                    <option value="2_spring">Semester 2 spring</option>
+                </select><br>
+
+                <label for="grade">Grade:</label><br>
+                <input type="number" name="grade" max="100" min="0"> <br>
+
+
+            </form>
+            </td>
+        </tr>
+
+        </tfoot>
 
     </table>
 
@@ -133,13 +163,13 @@
 
         <li>
 
-            <a href="https://ois2.ut.ee/">OIS</a>
+            <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
 
         </li>
 
         <li>
 
-            <a href="https://courses.cs.ut.ee/">Courses</a>
+            <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
 
         </li>
 
